@@ -1,16 +1,5 @@
 import React from 'react';
-import ruby from '../assets/images/ruby.png';
-import rails from '../assets/images/rails.png';
-import html from '../assets/images/html.png';
-import css from '../assets/images/css.png';
-import js from '../assets/images/js.png';
-import react from '../assets/images/react.png';
-import sql from '../assets/images/sql.png';
-import graphql from '../assets/images/graphql.png';
-
-
-
-
+import {skillsSection} from '../content';
 
 class WhatIDo extends React.Component {
     render() {
@@ -20,7 +9,17 @@ class WhatIDo extends React.Component {
                     <h2 style={{fontFamily: 'Source Sans Pro, sans-serif', color: "#33373b" }} >What i do</h2>
                     <p style={{ fontFamily: 'Source Sans Pro, sans-serif', color: '#878e96' }}>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK<br/></p>
                     <div class="row">
-                        <div class="col-4 col-md-3">
+                        {skillsSection.softwareSkills.map( skill => {
+                            return(
+                                <div class="col-4 col-md-2">
+                            <div class="text-center d-flex flex-column justify-content-center align-items-center">
+                                <img alt= {`${skill.name} logo`} src={skill.img} height="50"/>
+                                <p style={{marginTop: '20px', fontSize: '12px' , color: '#868e96' }}>{skill.name}</p>
+                            </div>
+                        </div>
+                            )
+                        })}
+                        {/* <div class="col-4 col-md-3">
                             <div class="text-center d-flex flex-column justify-content-center align-items-center">
                                 <img alt="ruby logo" src={ruby} height="50"/>
                                 <p style={{marginTop: '20px', fontSize: '12px' , color: '#868e96' }}>ruby</p>
@@ -67,7 +66,7 @@ class WhatIDo extends React.Component {
                                 <img alt="graphql logo" src={graphql} height="50"/>
                                 <p style={{marginTop: '20px', fontSize: '12px' , color: '#868e96' }}>graphql</p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

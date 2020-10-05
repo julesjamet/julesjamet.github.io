@@ -8,7 +8,6 @@ class SocialBar extends React.Component {
             <div className="d-flex flex-row justify-content-center" style={{background: "#f5f5f7" , borderRadius: "10px"}}>
 
             { socialMedias.map( social => {
-                console.log(social.color);
                 return (
                     <a  href={social.link} target= "_blank" style={{padding: "5px"}}>
                     <FontAwesomeIcon icon={['fab', `${social.fontawesomeClassname}`]} style={{
