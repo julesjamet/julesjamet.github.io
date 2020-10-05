@@ -7,7 +7,7 @@ class Header extends React.Component {
     render() {
         return (
             <div className="header-blue">
-                <Nav/>
+                <Nav navItems={this.props.navItems} />
                 <Hero/>
             </div>
         )   

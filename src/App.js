@@ -3,15 +3,20 @@ import './App.css';
 import Header from './components/header';
 import ProgLangs from './components/ProgLangs';
 import ClientsProjects from './components/ClientsProjects';
+import OpenSourceProjects from './components/OpenSourceProjects';
+import Footer from './components/Footer';
+import { socialMedias, skillsSection, navBar, greeting } from './content.js';
 
 import './components/fontAwesomeIcons';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header navItems={navBar} />
       <ProgLangs/>
       <ClientsProjects/>
+      <OpenSourceProjects/>
+      <Footer/>
     </div>
   );
 }

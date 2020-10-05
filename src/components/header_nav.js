@@ -16,10 +16,11 @@ class Nav extends React.Component {
                     <div className="collapse navbar-collapse" id="navcol-1">
                         
                         <ul className="nav navbar-nav ml-auto">
-                            <li className="nav-item"><a className="nav-link" >Skills</a></li>
-                            <li className="nav-item"><a className="nav-link" >Open Source</a></li>
-                            <li className="nav-item"><a className="nav-link" >Projects</a></li>
-                            <li className="nav-item"><a className="nav-link" >Contact Me</a></li>
+                            { this.props.navItems.map( nav => {
+                                return (
+                                    <li className="nav-item"><a href={nav.link} className="nav-link" > { nav.title} </a></li>
+                                )
+                            }) }
                         </ul>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 class ClientsProjects extends React.Component {
     render() {
         return (
-            <section>
+            <section  id="clients_projects" >
                 <h2 style={{ fontFamily: 'Source sans Pro, sans-serif', padding: "20px", textAlign: 'left' }} > Clients Projects</h2>
                 <div class="row">
                     <div class="col-12 col-md-6">   
