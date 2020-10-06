@@ -13,19 +13,14 @@ class ClientsProjects extends React.Component {
                 <div class="row">
                 { Projects.map( project => {
                     return(
-                        <div class="col-12 col-md-6 shadow">   
-                            
+                        <div class="col-12 col-md-6 ">   
+                            <div class="shadow">
                             <div style={{ background: `url(${project.imgProject}) center / cover no-repeat` , height: "300px" , margin: '15px' }} />          
-                            
-                            
-                            
                                 <div class="d-flex" style={{ paddingTop: "5px" , paddingBottom: "5px" ,paddingLeft: "20px" }}>
                                     <FontAwesomeIcon icon="star" style={{ fontSize: "16px" }} />
                                     <h6 style={{ paddingLeft: "5px" }}>{project.title}</h6>
                                 </div>
-                                <p style={{ paddingLeft: "20px" , paddingRight: "10px" }} >{project.desc}</p>
-                            
-
+                                <p style={{ paddingLeft: "20px" , paddingRight: "10px" }} >{project.desc}</p>                            
                             <div class="d-flex" style={{ padding: "10px" , paddingLeft: "20px" }}>
                                 { project.skills.map( skill => {
                                     return(
@@ -35,6 +30,7 @@ class ClientsProjects extends React.Component {
                                         </div>
                                     )
                                 })}
+                            </div>
                             </div>
                         </div>
                     )

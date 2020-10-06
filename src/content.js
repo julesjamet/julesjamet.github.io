@@ -10,7 +10,9 @@ import graphql from './assets/images/graphql.png';
 import liquid from './assets/images/liquid.png';
 import heroku from './assets/images/heroku.png';
 import zamzam from './assets/images/zamzam.png';
+import madariss from './assets/images/madariss.png';
 import shopify from './assets/images/shopify.png';
+import bootstrap from './assets/images/bootstrap.png';
 // Your summary and Greeting Section
 
 const greeting = {
@@ -129,6 +131,29 @@ const Projects = [
             {
                 name : 'liquid',
                 img : liquid
+            },
+            {
+                name : 'html',
+                img : html
+            },
+            {
+                name : 'css',
+                img : css
+            },
+            {
+                name : 'js',
+                img : js
+            }
+        ]
+    },
+    {
+        title : "madarissibnmashish.com",
+        desc : "I will write something after to describe what I have done inside this project",
+        imgProject : madariss,
+        skills : [
+            {
+                name : 'bootstrap',
+                img : bootstrap
             },
             {
                 name : 'html',
