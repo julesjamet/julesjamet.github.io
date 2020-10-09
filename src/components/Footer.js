@@ -19,15 +19,16 @@ class Footer extends React.Component {
                             <h5 class="text-center" style={{ fontFamily: 'Source Sans Pro , sans-serif' , fontSize: '16px' , color: '#33373b' }}><span> 👾 </span>  Aspiring Software Developper&nbsp; | Open Source Contributor&nbsp;&nbsp; <span>🚀</span> </h5>
                             <div class="d-flex justify-content-center">
                                 <FontAwesomeIcon icon="map-marker-alt" style={{color: '#868e96', paddingTop: '4px' }}/>
-                                <p style={{ paddingLeft: '10px' , fontFamily: 'Source Sans Pro , sans-serif'  , color: '#868e96' , fontSize: '14px' , paddingTop: '1px' }}> Tangier, Morocco </p>
+                                <p style={{ paddingLeft: '10px' , fontFamily: 'Source Sans Pro , sans-serif'  , color: '#868e96' , fontSize: '14px' , paddingTop: '1px' }}> Tangier, (Morocco) & Bali (Indonesia) </p>
                             </div>
-                            <div class="d-flex justify-content-center">
+                            {/* <div class="d-flex justify-content-center">
                             <FontAwesomeIcon icon="map-marker-alt" style={{ color: '#868e96' , paddingTop: '4px' }}/>
                             <i class="fas fa-map-marker-alt" style={{ color: '#868e96' , paddingTop: '4px' }}/>
                                 <p style={{ paddingLeft: '10px' , fontFamily: 'Source Sans Pro , sans-serif'  , color: '#868e96' , fontSize: '14px' , paddingTop: '1px' }}>Bali, Indonesia</p>
-                            </div>
+                            </div> */}
                             <p class="text-center" style={{ fontFamily: 'Source Sans Pro, sans-serif' }}>Open for opportunities: Yes</p>
                             <SocialBar/>
+                            <p class="text-center" style={{ fontFamily: 'Source Sans Pro, sans-serif', marginTop: '10px' }}>Made with  <span style={{paddingRight: '5px'}} > ❤️ </span> and React JS </p>
                         </div>
                     </div>
                 </div>

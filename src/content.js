@@ -10,6 +10,8 @@ import graphql from './assets/images/graphql.png';
 import liquid from './assets/images/liquid.png';
 import heroku from './assets/images/heroku.png';
 import zamzam from './assets/images/zamzam.png';
+import woudz from './assets/images/woudz.png';
+import judicael from './assets/images/judicael.png';
 import madariss from './assets/images/madariss.png';
 import shopify from './assets/images/shopify.png';
 import bootstrap from './assets/images/bootstrap.png';
@@ -18,7 +20,7 @@ import bootstrap from './assets/images/bootstrap.png';
 const greeting = {
     username: "Jules JAMET",
     title: "Full Stack Developer",
-    subtitle: "A passionate Software Developer  having an experience of building Web and Mobile applications with  Ruby on Rails / JavaScript / React.js  and some other cool libraries and frameworks.",
+    subtitle: "A passionate Software Developer with experience in building Web and Mobile applications; using Ruby on Rails / JavaScript / React.js and some other cool libraries / frameworks.",
     resumeLink: '',
 }
 
@@ -42,7 +44,7 @@ const navBar = [
 ]
 
 const skillsSection =  {
-    title: 'What i do',
+    title: 'What I do',
     subtitle: "crazy full stack developer who wants to explore every tech stack",
     // softwareSkills : [ 'html', 'css', 'js', 'ruby', 'ror', 'react' , 'sql', 'graphql'],
     softwareSkills : [
@@ -154,6 +156,56 @@ const Projects = [
             {
                 name : 'bootstrap',
                 img : bootstrap
+            },
+            {
+                name : 'html',
+                img : html
+            },
+            {
+                name : 'css',
+                img : css
+            },
+            {
+                name : 'js',
+                img : js
+            }
+        ]
+    },
+    {
+        title : "woudz.com",
+        desc : "I will write something after to describe what I have done inside this project",
+        imgProject : woudz,
+        skills : [
+            {
+                name : 'bootstrap',
+                img : bootstrap
+            },
+            {
+                name : 'html',
+                img : html
+            },
+            {
+                name : 'css',
+                img : css
+            },
+            {
+                name : 'js',
+                img : js
+            }
+        ]
+    },
+    {
+        title : "judicael-sacred-skulls.myshopify.com",
+        desc : "I will write something after to describe what I have done inside this project",
+        imgProject : judicael,
+        skills : [
+            {
+                name : 'shopify',
+                img : shopify
+            },
+            {
+                name : 'liquid',
+                img : liquid
             },
             {
                 name : 'html',

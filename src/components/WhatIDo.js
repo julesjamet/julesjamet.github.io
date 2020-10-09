@@ -6,7 +6,7 @@ class WhatIDo extends React.Component {
         return (
             <div class="col-12 col-md-6" style={{ padding: '30px' }}>
                 <div>
-                    <h2 style={{fontFamily: 'Source Sans Pro, sans-serif', color: "#33373b" }} >What i do</h2>
+                    <h2 style={{fontFamily: 'Source Sans Pro, sans-serif', color: "#33373b" }} >{skillsSection.title}</h2>
                     <p style={{ fontFamily: 'Source Sans Pro, sans-serif', color: '#878e96' }}>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK<br/></p>
                     <div class="row">
                         {skillsSection.softwareSkills.map( skill => {

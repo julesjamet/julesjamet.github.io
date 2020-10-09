@@ -26,7 +26,7 @@ class OpenSourceProjects extends React.Component {
                 <h2 style={{ fontFamily: 'Source Sans Pro , sans-serif' , padding: '20px' }}>Open Source Projects</h2>
                 <div class="row">
                 { this.state.projects.map( project => {
-                    console.log(githubColors[`${project.language}`].color);
+                    console.log(githubColors.Ruby.color);
                     return(
                         <div class="col-12 col-md-6 col-lg-4" style={{ padding: '10px' }}>
                             <div class="shadow" style={{ padding: '5px' , margin: '15px' }}>
@@ -37,7 +37,7 @@ class OpenSourceProjects extends React.Component {
                                 <p style={{ paddingLeft: '20px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                                 <div>
                                     <div class="d-flex" style={{ padding: '10px' , paddingLeft: '20px' }}>
-                                        <div style={{ width: '10px' , height: '10px' , borderRadius: '50%' , background: githubColors[`${project.language}`].color , marginTop: '2px' }}/>
+                                        <div style={{ width: '10px' , height: '10px' , borderRadius: '50%' , background: githubColors.Ruby.color , marginTop: '2px' }}/>
                                         <p style={{ fontSize: '10px' , paddingLeft: '5px' }}>{project.language}</p>
                                         <FontAwesomeIcon icon="user" style={{ marginLeft: '20px' , fontSize: '12px', marginTop: '1px' }}/>
                                         <p style={{ fontSize: '10px' , paddingLeft: '5px' , marginTop: '1px'}}>{project.forks_count}</p>
