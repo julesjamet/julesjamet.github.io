@@ -15,6 +15,7 @@ import judicael from './assets/images/judicael.png';
 import madariss from './assets/images/madariss.png';
 import shopify from './assets/images/shopify.png';
 import bootstrap from './assets/images/bootstrap.png';
+import { ReactJs, Html5, Ruby, Rubyonrails, Css3, Javascript, Visualstudiocode, Yarn, Postgresql, Webpack, Graphql, NodeDotJs, Googledrive, Sketch  } from '@icons-pack/react-simple-icons';
 // Your summary and Greeting Section
 
 const greeting = {
@@ -49,45 +50,9 @@ const skillsSection =  {
     // softwareSkills : [ 'html', 'css', 'js', 'ruby', 'ror', 'react' , 'sql', 'graphql'],
     softwareSkills : [
         {
-            name : 'html',
-            img : html
+            name : 'ReactJs',
+            tag : `<ReactJs color="#61DAFB" size={50} />`
         },
-        {
-            name : 'css',
-            img : css
-        },
-        {
-            name : 'js',
-            img : js
-        },
-        {
-            name : 'ruby',
-            img : ruby
-        },
-        {
-            name : 'ruby on rails',
-            img : ror
-        },
-        {
-            name : 'react',
-            img : react
-        },
-        {
-            name : 'sql',
-            img : sql
-        },
-        {
-            name : 'graph ql',
-            img : graphql
-        },
-        {
-            name : 'liquid',
-            img : liquid
-        },
-        {
-            name : 'heroku',
-            img : heroku
-        }
     ]
 
 }
@@ -125,28 +90,9 @@ const Projects = [
         title : "zamzamjewels.com",
         desc : "I will write something after to describe what I have done inside this project",
         imgProject : zamzam,
-        skills : [
-            {
-                name : 'shopify',
-                img : shopify
+        skills : {
+            
             },
-            {
-                name : 'liquid',
-                img : liquid
-            },
-            {
-                name : 'html',
-                img : html
-            },
-            {
-                name : 'css',
-                img : css
-            },
-            {
-                name : 'js',
-                img : js
-            }
-        ]
     },
     {
         title : "madarissibnmashish.com",
