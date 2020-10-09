@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { githubColors } from '../content';
+import Roll from 'react-reveal/Roll';
 
 class OpenSourceProjects extends React.Component {
     constructor() {
@@ -29,6 +30,7 @@ class OpenSourceProjects extends React.Component {
                     console.log(githubColors.Ruby.color);
                     return(
                         <div class="col-12 col-md-6 col-lg-4" style={{ padding: '10px' }}>
+                            <Roll>
                             <div class="shadow" style={{ padding: '5px' , margin: '15px' }}>
                                 <div class="d-flex" style={{ paddingTop: '5px' , paddingBottom: '5px' ,paddingLeft: '20px' }}>
                                     <FontAwesomeIcon icon="check-circle" style={{ fontSize: "16px" }} />
@@ -47,6 +49,7 @@ class OpenSourceProjects extends React.Component {
                                     <p style={{ fontSize: '10px' , position: 'absolute' , right: '15%' ,bottom: '14%' }}>{project.size} KB</p>
                                 </div>
                             </div>
+                            </Roll>        
                         </div>
 
                     )

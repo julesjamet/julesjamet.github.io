@@ -19,57 +19,10 @@ class WhatIDo extends React.Component {
                         </div>
                             )
                         })}
-                        {/* <div class="col-4 col-md-3">
-                            <div class="text-center d-flex flex-column justify-content-center align-items-center">
-                                <img alt="ruby logo" src={ruby} height="50"/>
-                                <p style={{marginTop: '20px', fontSize: '12px' , color: '#868e96' }}>ruby</p>
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-3">
-                            <div class="text-center d-flex flex-column justify-content-center align-items-center">
-                                <img alt="rails logo" src={rails} height="50"/>
-                                <p style={{marginTop: '20px', fontSize: '12px' , color: '#868e96' }}>ror</p>
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-3">
-                            <div class="text-center d-flex flex-column justify-content-center align-items-center">
-                                <img alt="html logo" src={html} height="50"/>
-                                <p style={{marginTop: '20px', fontSize: '12px' , color: '#868e96' }}>html</p>
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-3">
-                            <div class="text-center d-flex flex-column justify-content-center align-items-center">
-                                <img alt="css logo" src={css} height="50"/>
-                                <p style={{marginTop: '20px', fontSize: '12px' , color: '#868e96' }}>css</p>
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-3">
-                            <div class="text-center d-flex flex-column justify-content-center align-items-center">
-                                <img alt="js logo" src={js} height="50"/>
-                                <p style={{marginTop: '20px', fontSize: '12px' , color: '#868e96' }}>js</p>
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-3">
-                            <div class="text-center d-flex flex-column justify-content-center align-items-center">
-                                <img alt="react logo" src={react} height="50"/>
-                                <p style={{marginTop: '20px', fontSize: '12px' , color: '#868e96' }}>react.js</p>
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-3">
-                            <div class="text-center d-flex flex-column justify-content-center align-items-center">
-                                <img alt="sql logo" src={sql} height="50"/>
-                                <p style={{marginTop: '20px', fontSize: '12px' , color: '#868e96' }}>sql</p>
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-3">
-                            <div class="text-center d-flex flex-column justify-content-center align-items-center">
-                                <img alt="graphql logo" src={graphql} height="50"/>
-                                <p style={{marginTop: '20px', fontSize: '12px' , color: '#868e96' }}>graphql</p>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>
+            
         )
     }
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import Macbook from '../assets/images/thumbnail-MacBook-Air_2x.png';
 import SocialBar from './SocialBar';
 import { greeting } from '../content';
+import Typing from 'react-typing-animation';
+
 
 class Hero extends React.Component{
     render() {
@@ -17,8 +19,11 @@ class Hero extends React.Component{
                     <div className="col-12 col-md-6 col-lg-6 col-xl-5 offset-xl-1 order-md-1">
                         <h1>{greeting.username}</h1>
                         <h2 style={{color: 'rgb(255,255,255)'}}>{greeting.title}</h2>
-                        <p style={{textAlign: "justify"}} >{greeting.subtitle}</p>
+                        <Typing>
+                            <p style={{textAlign: "justify"}} >{greeting.subtitle}</p>
+                        </Typing>
                         <SocialBar/>
+                        <a className="btn btn-primary" href="https://www.github.com/julesjamet" style={{marginTop: '20px'}}>My Resume</a>
                     </div>
                 </div>
             </div>
