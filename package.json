@@ -21,7 +21,7 @@
     "react-typing-animation": "^1.6.2"
   },
   "scripts": {
-    "pre-deploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
