@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.13adb958.chunk.css",
+    "main.js": "/my_portfolio/static/js/main.086cce72.chunk.js",
+    "main.js.map": "/my_portfolio/static/js/main.086cce72.chunk.js.map",
+    "runtime-main.js": "/my_portfolio/static/js/runtime-main.88b1f98b.js",
+    "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.88b1f98b.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/my_portfolio/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.aa6fb0a1.chunk.js": "/my_portfolio/static/js/2.aa6fb0a1.chunk.js",
+    "static/js/2.aa6fb0a1.chunk.js.map": "/my_portfolio/static/js/2.aa6fb0a1.chunk.js.map",
+    "index.html": "/my_portfolio/index.html",
+    "precache-manifest.122f8263251cd7d9ddc542f9a70232ed.js": "/my_portfolio/precache-manifest.122f8263251cd7d9ddc542f9a70232ed.js",
+    "service-worker.js": "/my_portfolio/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/my_portfolio/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.13adb958.chunk.css.map": "/my_portfolio/static/css/main.13adb958.chunk.css.map",
+    "static/js/2.aa6fb0a1.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.aa6fb0a1.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.png": "/my_portfolio/static/media/bootstrap.d5ca19be.png",
+    "static/media/developer_activity.svg": "/my_portfolio/static/media/developer_activity.203fd796.svg",
+    "static/media/feelivelove.png": "/my_portfolio/static/media/feelivelove.2e6a1327.png",
+    "static/media/graphql.png": "/my_portfolio/static/media/graphql.f4c1759d.png",
+    "static/media/heroku.png": "/my_portfolio/static/media/heroku.144cfa56.png",
+    "static/media/judicael.png": "/my_portfolio/static/media/judicael.b929047a.png",
+    "static/media/liquid.png": "/my_portfolio/static/media/liquid.231af56b.png",
+    "static/media/madariss.png": "/my_portfolio/static/media/madariss.ab0fdea9.png",
+    "static/media/profile_pic.jpeg": "/my_portfolio/static/media/profile_pic.be74c3c2.jpeg",
+    "static/media/rails.png": "/my_portfolio/static/media/rails.a766df31.png",
+    "static/media/react.png": "/my_portfolio/static/media/react.2a29cdd7.png",
+    "static/media/shopify.png": "/my_portfolio/static/media/shopify.0c333e6b.png",
+    "static/media/sql.png": "/my_portfolio/static/media/sql.94d6a58b.png",
+    "static/media/thumbnail-MacBook-Air_2x.png": "/my_portfolio/static/media/thumbnail-MacBook-Air_2x.712e7791.png",
+    "static/media/woudz.png": "/my_portfolio/static/media/woudz.f9eababa.png",
+    "static/media/zamzam.png": "/my_portfolio/static/media/zamzam.803e0f5f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88b1f98b.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.aa6fb0a1.chunk.js",
+    "static/css/main.13adb958.chunk.css",
+    "static/js/main.086cce72.chunk.js"
+  ]
+}
