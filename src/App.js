@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashRouter} from "react-router-dom";
 import './App.css';
 import Header from './components/header';
 import ProgLangs from './components/ProgLangs';
@@ -11,13 +12,15 @@ import './components/fontAwesomeIcons';
 
 function App() {
   return (
-    <div className="App">
-      <Header navItems={navBar} />
-      <ProgLangs/>
-      <ClientsProjects/>
-      <OpenSourceProjects/>
-      <Footer/>
-    </div>
+    <HashRouter basename='/'>
+      <div className="App">
+        <Header navItems={navBar} />
+        <ProgLangs/>
+        <ClientsProjects/>
+        <OpenSourceProjects/>
+        <Footer/>
+      </div>
+    </HashRouter>
   );
 }
 
