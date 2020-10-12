@@ -7,8 +7,9 @@ import ProfilePic from '../assets/images/profile_pic.jpeg';
 class Footer extends React.Component {
     render() {
         return (
-            <footer id="contact_me">
-                <h3 class="text-left" style={{ fontFamily: 'Source Sans Pro , sans-serif' , paddingLeft: '20px' }}>Reach out to me!</h3>
+            <footer id="contact_me" style={{marginTop: '60px', backgroundColor: '#dcdcdc', paddingTop: '30px'}}>
+            <div className="container">
+                
                 <div class="row">
                     <div class="col-12 col-lg-4 order-1 order-lg-2" style={{ textAlign: 'center' , marginTop: '20px' , marginBottom: '20px' }}>
                             <img alt="Jules Jamet" src={ProfilePic} width="200" style={{ borderRadius: '50%' , border: "5px solid #0e498a" }}/>
@@ -31,6 +32,7 @@ class Footer extends React.Component {
                             <p class="text-center" style={{ fontFamily: 'Source Sans Pro, sans-serif', marginTop: '10px' }}>Made with  <span style={{paddingRight: '5px'}} > ❤️ </span> and React JS </p>
                         </div>
                     </div>
+                </div>
                 </div>
             </footer>
         )

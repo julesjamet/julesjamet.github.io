@@ -20,7 +20,7 @@ class Hero extends React.Component{
                         <h1>{greeting.username}</h1>
                         <h2 style={{color: 'rgb(255,255,255)'}}>{greeting.title}</h2>
                         <Typing>
-                            <p style={{textAlign: "justify"}} >{greeting.subtitle}</p>
+                            <p style={{textAlign: "justify", height:'130px'}} >{greeting.subtitle}</p>
                         </Typing>
                         <SocialBar/>
                         <a className="btn btn-primary" href="https://www.github.com/julesjamet" style={{marginTop: '20px'}}>My Resume</a>

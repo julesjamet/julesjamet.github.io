@@ -16,9 +16,10 @@ class ClientsProjects extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Flip>
+            <div className="container">
+                <Fade left>
                     <h2 style={{ fontFamily: 'Source sans Pro, sans-serif', padding: "20px", textAlign: 'left' }} > Clients Projects</h2>
-                </Flip>
+                </Fade>
                
                 
                 <div class="row">
@@ -194,7 +195,7 @@ class ClientsProjects extends React.Component {
                         </div>
                 </div>
                 
-            
+                </div>
             </React.Fragment>
         )
     }
