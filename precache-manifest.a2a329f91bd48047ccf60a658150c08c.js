@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18202b6652bda121329d1ff8e0fcb2be",
+    "revision": "6de48135944f9c1a29a01468633b221e",
     "url": "/my_portfolio/index.html"
   },
   {
-    "revision": "eec7b562e03cd8977f25",
+    "revision": "59b066ef1b7b24933632",
     "url": "/my_portfolio/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "435d8cfff64f549c5fbd",
+    "revision": "8bc43879be3412a14ce1",
     "url": "/my_portfolio/static/css/main.13adb958.chunk.css"
   },
   {
-    "revision": "eec7b562e03cd8977f25",
-    "url": "/my_portfolio/static/js/2.aa6fb0a1.chunk.js"
+    "revision": "59b066ef1b7b24933632",
+    "url": "/my_portfolio/static/js/2.e09de926.chunk.js"
   },
   {
     "revision": "bfd04eb851fbc8ea43c375cc9d698376",
-    "url": "/my_portfolio/static/js/2.aa6fb0a1.chunk.js.LICENSE.txt"
+    "url": "/my_portfolio/static/js/2.e09de926.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "435d8cfff64f549c5fbd",
-    "url": "/my_portfolio/static/js/main.086cce72.chunk.js"
+    "revision": "8bc43879be3412a14ce1",
+    "url": "/my_portfolio/static/js/main.be4265ee.chunk.js"
   },
   {
     "revision": "d9629bd1ee9955b69a66",
@@ -40,14 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my_portfolio/static/media/feelivelove.2e6a1327.png"
   },
   {
-    "revision": "f4c1759df56cc94030841c386f10186c",
-    "url": "/my_portfolio/static/media/graphql.f4c1759d.png"
-  },
-  {
-    "revision": "144cfa565509f0ead2c91f7c213c6798",
-    "url": "/my_portfolio/static/media/heroku.144cfa56.png"
-  },
-  {
     "revision": "b929047a0a254bf9223c65dad85fd4f7",
     "url": "/my_portfolio/static/media/judicael.b929047a.png"
   },
@@ -64,20 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my_portfolio/static/media/profile_pic.be74c3c2.jpeg"
   },
   {
-    "revision": "a766df31619cc7ab41ab2b3bd421d6de",
-    "url": "/my_portfolio/static/media/rails.a766df31.png"
-  },
-  {
-    "revision": "2a29cdd7a67f37607200f4d52ff19413",
-    "url": "/my_portfolio/static/media/react.2a29cdd7.png"
-  },
-  {
     "revision": "0c333e6bb7606548c214ecee39736609",
     "url": "/my_portfolio/static/media/shopify.0c333e6b.png"
-  },
-  {
-    "revision": "94d6a58bf2c902163c6aeef0a587fa9c",
-    "url": "/my_portfolio/static/media/sql.94d6a58b.png"
   },
   {
     "revision": "712e7791aaf25f3f1a2f5d3d747084ee",
