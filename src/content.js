@@ -1,21 +1,18 @@
 // Importing images from assets
-import ruby from './assets/images/ruby.png';
-import ror from './assets/images/rails.png';
+
 import html from './assets/images/html.png';
 import css from './assets/images/css.png';
 import js from './assets/images/js.png';
-import react from './assets/images/react.png';
-import sql from './assets/images/sql.png';
-import graphql from './assets/images/graphql.png';
+
 import liquid from './assets/images/liquid.png';
-import heroku from './assets/images/heroku.png';
+
 import zamzam from './assets/images/zamzam.png';
 import woudz from './assets/images/woudz.png';
 import judicael from './assets/images/judicael.png';
 import madariss from './assets/images/madariss.png';
 import shopify from './assets/images/shopify.png';
 import bootstrap from './assets/images/bootstrap.png';
-import { ReactJs, Html5, Ruby, Rubyonrails, Css3, Javascript, Visualstudiocode, Yarn, Postgresql, Webpack, Graphql, NodeDotJs, Googledrive, Sketch  } from '@icons-pack/react-simple-icons';
+
 // Your summary and Greeting Section
 
 const greeting = {
