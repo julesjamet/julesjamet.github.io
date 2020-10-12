@@ -5,7 +5,7 @@ import ProgLangs from './components/ProgLangs';
 import ClientsProjects from './components/ClientsProjects';
 import OpenSourceProjects from './components/OpenSourceProjects';
 import Footer from './components/Footer';
-import { socialMedias, skillsSection, navBar, greeting } from './content.js';
+import {navBar} from './content.js';
 
 import './components/fontAwesomeIcons';
 
