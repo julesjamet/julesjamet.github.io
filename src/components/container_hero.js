@@ -17,8 +17,9 @@ class Hero extends React.Component{
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 col-xl-5 offset-xl-1 order-md-1">
-                        <h1>{greeting.username}</h1>
-                        <h2 style={{color: 'rgb(255,255,255)'}}>{greeting.title}</h2>
+                        <h1 style={{marginBottom: "0"}}>{greeting.username}</h1>
+                        <img src="https://www.codewars.com/users/julesjamet/badges/micro" alt="Codewar.com level"/>
+                        <h2 style={{color: 'rgb(255,255,255)', paddingTop: "10px"}}>{greeting.title}</h2>
                         <Typing>
                             <p style={{textAlign: "justify", height:'130px'}} >{greeting.subtitle}</p>
                         </Typing>

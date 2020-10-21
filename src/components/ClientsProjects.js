@@ -33,7 +33,7 @@ class ClientsProjects extends React.Component {
                                         <FontAwesomeIcon icon="star" style={{ fontSize: "16px" }} />
                                         <h6 style={{ paddingLeft: "5px" }}>zamzamjewels.com</h6>
                                     </div>
-                                    <p style={{ paddingLeft: "20px" , paddingRight: "10px" }} >Test</p>                            
+                                    <p style={{ paddingLeft: "20px" , paddingRight: "10px", height: "80px" }} >Shopify website based on a free basic template. Added tags features to the collection page. Redesigned Product page. Set up of plugins.  </p>                            
                                     <div class="d-flex" style={{ padding: "10px" , paddingLeft: "20px" }}>                                        
                                                 <div style={{ marginRight: "10px" }}>
                                                     <Shopify color="rgb(135, 142, 150)" size={40} />
@@ -66,7 +66,7 @@ class ClientsProjects extends React.Component {
                                         <FontAwesomeIcon icon="star" style={{ fontSize: "16px" }} />
                                         <h6 style={{ paddingLeft: "5px" }}>madarissibnmashish.com</h6>
                                     </div>
-                                    <p style={{ paddingLeft: "20px" , paddingRight: "10px" }} >Test</p>                            
+                                    <p style={{ paddingLeft: "20px" , paddingRight: "10px", height: "80px" }} >School Website based on Locomotive CMS. Open Source CMS based on Ruby on rails & React js. Designed with bootstrap 4.3.</p>                            
                                     <div class="d-flex" style={{ padding: "10px" , paddingLeft: "20px" }}>                                        
                                     <div style={{ marginRight: "10px" }}>
                                                     <Rubyonrails color="rgb(135, 142, 150)" size={40} />
@@ -103,7 +103,7 @@ class ClientsProjects extends React.Component {
                                         <FontAwesomeIcon icon="star" style={{ fontSize: "16px" }} />
                                         <h6 style={{ paddingLeft: "5px" }}>judicael-sacred-skulls.myshopify.com</h6>
                                     </div>
-                                    <p style={{ paddingLeft: "20px" , paddingRight: "10px" }} >Test</p>                            
+                                    <p style={{ paddingLeft: "20px" , paddingRight: "10px", height: "80px" }} >Shopify Ecommerce website based on a basic free template. Added custom Css and fonts. Payment gateways integration</p>                            
                                     <div class="d-flex" style={{ padding: "10px" , paddingLeft: "20px" }}>                                        
                                     <div style={{ marginRight: "10px" }}>
                                                     <Shopify color="rgb(135, 142, 150)" size={40} />
@@ -136,7 +136,7 @@ class ClientsProjects extends React.Component {
                                         <FontAwesomeIcon icon="star" style={{ fontSize: "16px" }} />
                                         <h6 style={{ paddingLeft: "5px" }}>woudz.com</h6>
                                     </div>
-                                    <p style={{ paddingLeft: "20px" , paddingRight: "10px" }} >Test</p>                            
+                                    <p style={{ paddingLeft: "20px" , paddingRight: "10px", height: "80px" }} >Brand furniture website written in plain Html, Css & JS. Currently working on Ruby on rails App development </p>                            
                                     <div class="d-flex" style={{ padding: "10px" , paddingLeft: "20px" }}>                                                                                        
                                                 <div style={{ marginRight: "10px" }}>
                                                     <Html5 color="rgb(135, 142, 150)" size={40} />
@@ -165,7 +165,7 @@ class ClientsProjects extends React.Component {
                                         <FontAwesomeIcon icon="star" style={{ fontSize: "16px" }} />
                                         <h6 style={{ paddingLeft: "5px" }}>feelivelove.com</h6>
                                     </div>
-                                    <p style={{ paddingLeft: "20px" , paddingRight: "10px" }} >Test</p>                            
+                                    <p style={{ paddingLeft: "20px" , paddingRight: "10px", height: "80px" }} >E-commerce website based on Woocommerce / Wordpress. Payment gateways integration and custom Css.</p>                            
                                     <div class="d-flex" style={{ padding: "10px" , paddingLeft: "20px" }}>                                                                                        
                                                 <div style={{ marginRight: "10px" }}>
                                                     <Wordpress color="rgb(135, 142, 150)" size={40} />
